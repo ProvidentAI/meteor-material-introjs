@@ -2,7 +2,7 @@ Package.describe({
   summary: "Materialized introjs for Meteor",
   version: "0.1.1",
   git: "https://github.com/providentai/meteor-material-introjs.git",
-  name: "providentai:introjs"
+  name: "providentai:meteor-material-introjs"
 });
 
 Package.onUse(function (api) {
@@ -13,6 +13,6 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function (api) {
-  api.use(['rexzh0u:introjs', 'tinytest'], ['client']);
+  api.use(['providentai:meteor-material-introjs', 'tinytest'], ['client']);
   api.add_files('test.js', ['client']);
 });
