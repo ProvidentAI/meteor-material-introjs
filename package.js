@@ -1,8 +1,8 @@
 Package.describe({
-  summary: "Introjs for Meteor",
-  version: "0.1.0",
-  git: "https://github.com/zhouzhuojie/meteor-introjs.git",
-  name: "rexzh0u:introjs"
+  summary: "Materialized introjs for Meteor",
+  version: "0.1.1",
+  git: "https://github.com/providentai/meteor-material-introjs.git",
+  name: "providentai:introjs"
 });
 
 Package.onUse(function (api) {
